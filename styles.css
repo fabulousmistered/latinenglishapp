@@ -50,3 +50,53 @@ h1 {
   font-family: Georgia, 'Times New Roman', serif;
   font-size: 1rem;
 }
+
+
+#title {
+  background: #4e1b1b;
+  margin: 0;  
+  text-align: center;
+  height: 100%;
+  position: fixed;
+  width: 7%;
+}
+
+#title h1 {
+  position: absolute;
+  white-space: nowrap;
+  width: 100px;
+  height: 100px;
+  background: transparent;
+	bottom: 3%;
+	left: 59%;
+	margin: -25px 0 0 -25px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-size: 2em;
+  color: rgb(241, 231, 231);
+}
+
+#title .subtitle {
+  font-size: .86em;
+  margin: 0 0 0 15px;
+  color: rgb(247, 193, 193);
+}
+#universe {
+  background: rgba(153, 153, 153, 0.082);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 7%;
+}
+
+footer {
+  color: lightgray;
+}
+
+.footer a {
+  background-color: #eee;
+  color: #eee;
+}
